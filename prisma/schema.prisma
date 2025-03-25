@@ -1,11 +1,11 @@
 generator client {
 	provider = "prisma-client-js"
-	previewFeatures = ["filteredRelationCount"]
 }
 
 datasource db {
 	provider = "sqlite"
-	url      = env("DATABASE_URL")
+//	url      = "file:./db.sqlite"
+	url = env("DATABASE_URL")
 }
 
 //

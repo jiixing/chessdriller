@@ -1,0 +1,8 @@
+use localhost in the .env
+
+a setup
+DATABASE_URL="file:./dev.db"
+PORT=3123
+LICHESS_REDIRECT_ORIGIN="http://localhost:5173"
+
+i don't think PORT is used, vite default to 5173
